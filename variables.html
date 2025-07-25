@@ -1,0 +1,82 @@
+<!Doctype html>
+<html>
+    <head>
+        !__variables are containers__!
+        <title>variables</title>
+    </head>
+    <body>
+        <button onclick="cartquantity=cartquantity+1;
+        console.log(`cartquantity:${cartquantity}`)"> showquantity</button>
+        <button onclick="cartquantity=cartquantity+1;
+        console.log(`cartquantity:${cartquantity}`)">addtocart</button>
+        <button onclick="cartquantity=cartquantity+2;
+        cartquantity+=2;//shortcut//
+        console.log(`cartquantity:${cartquantity}`)">+2</button>
+        <button onclick="cartquantity=0;
+        console.log(`cartquantity:${cartquantity}`);">reset</button>
+        <button onclick="cartquantity+=4;
+        console.log(`cartquantity:${cartquantity}`)">+4</button>
+        <button onclick="cartquantity+=5;
+        console.log(`cartquantity:${cartquantity}`)">+5
+
+        </button>
+        <button onclick="cartquantity-=1;
+        console.log(`cartquantity:${cartquantity}`)">removefromcart</button>
+        <button onclick="cartquantity-=4;
+        console.log(`cartquantity:${cartquantity}`)">-4</button>
+        
+        <button onclick="cartquantity-=5;
+        console.log(`cartquantity:${cartquantity}`)">-5</button>
+        
+        
+
+        
+
+        <script>
+            //the word let creates the new variable//
+            //we can't use special variables like let like variable name however we can let1 and let2//
+            //we can't use number as starting//
+            //can't start with the special characters//however we can use $,_ in js semicolon means then end instruction
+            //let creates a vaariable//
+            //this creates a variable container//
+            let cartquantity=-0;
+            let variable1=3;
+            console.log(variable1);//it displays what ever value  inside the variable//
+            let calculation=2+6;//it performs the calculation//
+            console.log(calculation);
+            console.log(calculation+8);console.log(';');//we can onne after another with out any instruction//
+            let result=calculation+9;
+            console.log(result);
+            let name='pandu';
+            console.log(name)//it inserts the last semi colon automatically//
+
+            //we change the value of the variable//
+            //reassigning the value//
+            //we did not use the let while reassigning the valuse//
+            variable1=9;
+            console.log(variable1);
+            // we can reassign a variable how many times we have//
+            variable1=10;
+            console.log(variable1);
+            console.log(variable1+2);
+            //kebeb-case does not use in js//
+            const value=9;//const value does not change later but let will change later//
+            console.log(value);
+            valu=10;
+            console.log(value);
+            var pandu=90;//var variable is like a let it can be change later//
+            console.log(pandu)
+            console.log(typeof 'pandu');//typeof defines the type of the variable//
+            let myname='sweety';
+            console.log(myname);
+            console.log(`mynameis:${myname}`);
+            let cost=1+2*3+3*5;
+            console.log(cost);
+            console.log(`costofthefood:$${cost}`);
+            tax=cost*0.1;
+            console.log(cost);
+            console.log(`tax10%:$${tax}`);
+
+        </script>
+    </body>
+</html>
