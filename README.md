@@ -5,7 +5,7 @@ A basic calculator web application built using **HTML**, **CSS**, and **JavaScri
 
 ## 🖥️ Demo
 
-![Calculator Screenshot](screenshot.png) <!-- Replace with your image or demo link if available -->
+![Calculator Demo](demo.mp4) <!-- Replace with your image or demo link if available -->
 
 ## 🚀 Features
 
