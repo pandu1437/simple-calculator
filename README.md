@@ -15,4 +15,12 @@ A basic calculator web application built using **HTML**, **CSS**, and **JavaScri
 - User-friendly interface
 
 ## 📁 Project Structure
+simple-calculator/
+├── index.html # Main HTML structure
+├── style.css # Styling and layout
+└── script.js # Functionality and logic
+💡 Technologies Used
+HTML5
+CSS3
+JavaScript 
 
